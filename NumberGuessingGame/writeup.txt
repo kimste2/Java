@@ -1,4 +1,4 @@
 This is a number guessing game where the target number is  between zero and one hundred inclusive. 
 The user has ten tries to guess the correct number.  This was a good lesson in importing a scanner and
 random number objects. While the Java syntax is similar to C the use of objects in place of functions 
-is taking some getting used to.   
+is taking some getting used to.  The function aString.equals("arg") was useful since "==" doesn't compare strings like in C++   
