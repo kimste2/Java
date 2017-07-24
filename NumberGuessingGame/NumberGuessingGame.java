@@ -1,4 +1,10 @@
 // number guessing game 
+/*
+TODO:
+	1. Add numberic checking 
+	2. Add string checking 
+
+*/
 import java.util.Scanner;
 import java.util.Locale;
 import java.util.Random;
