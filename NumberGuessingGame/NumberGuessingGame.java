@@ -42,7 +42,16 @@ public class NumberGuessingGame
 	        	else
 	        	{
 	        		guesses[guess_counter] = guess;
-	        		System.out.println("Incorrect! Try again!");
+	        		System.out.print("Incorrect! Try again!");
+				
+					if (guess > random_number)
+					{
+						System.out.print("Your guess was too big! Try guessing a smaller number.\n");
+					}
+					else
+					{
+						System.out.print("Your guess too little! Try guessing a large number.\n");
+					}
 	        	}
 
 	        }
